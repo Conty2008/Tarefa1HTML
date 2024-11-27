@@ -13,7 +13,6 @@
     border: 2px solid rgb(0, 0, 0);
     border-radius: 50%;
     margin-top: 20px;
-    box-shadow: 10px;
 }
 
 #alinhamento {
@@ -22,6 +21,27 @@
     gap: 325px;
 }
 
+#rodape {
+    background-color: black;
+    width: 100%;
+    height: 136px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 350px;
+}
+
 .espacotexto {
     margin-left: 50px;
+}
+
+.imagens {
+    width: 290px;
+    height: 210px;
+    margin-left: 12px;
+}
+
+.fundo-da-foto {
+    background-color: black;
+    padding: 15px;
 }
